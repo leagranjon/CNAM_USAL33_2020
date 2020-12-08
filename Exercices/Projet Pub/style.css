@@ -2,6 +2,7 @@
 
 .style-1 header {
     font-family: Verdana;
+    font-size: 20px;
     color: #f1f1f1;
     background-color: #4caf50;
     border-radius: 5px;
@@ -17,10 +18,11 @@
 .style-1 ul {
     margin-left: -30px;
     font-family: Verdana;
+    font-size: 20px;
     list-style: none;
     background-color: #f1f1f1;
 }
-.style-1 ul li {
+.style-1 li {
     padding: 5px;
     width: 150px;
     border: 1px solid #d4d4d4;
@@ -29,27 +31,39 @@
 .style-1 li:hover {
     background-color: #4caf50;
 }
+.style-1 a {
+    text-decoration: none;
+    color: #000000;
+}
+.style-1 li:hover a {
+    color: #ffffff;
+    background-color: #4caf50;
+    border: 1px solid #d4d4d4;
+}
 .style-1 main {
     font-family: Verdana;
+    font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
 }
 .style-1 aside {
     font-family: Verdana;
+    font-size: 18px;
     color: #f1f1f1;
     background-color: #32a4e7;
     border-radius: 5px;
     padding-top: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
-    width: 225px;
-    text-align: center;
+    width: 275px;
+    text-align: left;
 }
 .style-1 footer {
     font-family: Verdana;
+    font-size: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 10px;
@@ -66,7 +80,8 @@
 }
 .style-2 header {
     font-family: Arial;
-    color: #f6dad7;
+    font-size: 30px;
+    color: #ffffff;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
@@ -81,22 +96,44 @@
     background-color: #ffffff;
 }
 .style-2 h2 {
+    font-size: 27px;
     color: #d14836;
+}
+.style-2 main {
+    font-size: 18px;
 }
 .style-2 ul {
     float: right;
     font-family: Arial;
+    font-size: 20px;
     list-style: none;
 }
-.style-2 ul li {
+.style-2 li {
     padding: 5px;
     width: 150px;
     text-align: center;
     border-radius: 20px;
-    
     background-color: #d14836;
 }
+.style-2 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.style-2 li:first-child {
+    margin-bottom: 5px;
+}
+.style-2 li:nth-child(2n) {
+    margin-bottom: 5px;
+}
+.style-2 li:nth-child(3n) {
+    margin-bottom: 5px;
+}
 .style-2 li:hover {
+    background-color: #ffffff;
+    border: 1px solid #d14836;
+}
+.style-2 li:hover a {
+    color: #d14836;
     background-color: #ffffff;
     border: 1px solid #d14836;
 }
@@ -110,6 +147,7 @@
 }
 .style-2 footer {
     font-family: Arial;
+    font-size: 13px;
     color: #f6dad7;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -120,6 +158,7 @@
 
 .style-3 header {
     font-family: Verdana;
+    font-size: 18px;
     color: #4caf50;
 }
 .style-3 section {
@@ -128,24 +167,42 @@
     flex-direction: column;
 }
 .style-3 ul {
+    font-size: 18px;
     margin-left: -30px;
-    color: #ffffff;
     list-style: none;
 }
-.style-3 ul li {
+.style-3 li {
     float: left;
-    padding: 5px;
+    padding: 10px;
     width: 150px;
     background-color: #555555;
     text-align: center;
 }
+.style-3 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.style-3 li:first-child {
+    margin-right: 5px;
+}
+.style-3 li:nth-child(2n) {
+    margin-right: 5px;
+}
+.style-3 li:nth-child(3n) {
+    margin-right: 5px;
+}
 .style-3 li:hover {
     background-color: #4caf50;
 }
-.style-3 main h2 {
+.style-3 h2 {
     color: #4caf50;
+    font-size: 27px;
+}
+.style-3 main {
+    font-size: 18px;
 }
 .style-3 aside {
+    font-size: 18px;
     background-color: #f1f1f1;
     border: 1px solid #d4d4d4;
     padding-top: 10px;
@@ -154,6 +211,7 @@
 }
 .style-3 footer {
     font-family: Verdana;
+    font-size: 15px;
     padding-top: 20px;
     text-align: center;
 }
