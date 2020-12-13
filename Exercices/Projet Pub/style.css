@@ -1,4 +1,4 @@
-/* STYLE-1 */
+/* ---------------------------------------STYLE-1---------------------------------------------- */
 
 .style-1 header {
     font-family: Verdana;
@@ -39,7 +39,6 @@
 .style-1 li:hover a {
     color: #ffffff;
     background-color: #4caf50;
-    border: 1px solid #d4d4d4;
 }
 .style-1 main {
     font-family: Verdana;
@@ -74,7 +73,7 @@
     text-align: center;
 }
 
-/* STYLE-2 */
+/* ---------------------------------------------------STYLE-2------------------------------------------ */
 
 .style-2 div {
     background-color: #d14836;
@@ -115,6 +114,7 @@
     text-align: center;
     border-radius: 20px;
     background-color: #d14836;
+    border: 1px solid #d14836;
 }
 .style-2 a {
     text-decoration: none;
@@ -136,7 +136,6 @@
 .style-2 li:hover a {
     color: #d14836;
     background-color: #ffffff;
-    border: 1px solid #d14836;
 }
 .style-2 aside {
     color: #d14836;
@@ -155,7 +154,7 @@
     text-align: center;
 }
 
-/* STYLE-3 */
+/* -----------------------------------------------STYLE-3---------------------------------------------------- */
 
 .style-3 header {
     font-family: Verdana;
