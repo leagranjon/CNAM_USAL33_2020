@@ -25,6 +25,7 @@ h3 {
 /* --------------------------------------------FORM-------------------------------------------- */
 .label {
     display: block;
+    margin-bottom: 5px;
 }
 .name {
     display: inline-block;
@@ -32,10 +33,17 @@ h3 {
 #firstname {   
     display: inline-block;
     margin-bottom: 30px;
+    margin-right: 10px;
+    background-color: #f8fcfb;
+    border: solid 2px #eef3f2;
+    padding: 10px 35px;
 }
 #lastname {
     display: inline-block;
     margin-bottom: 30px;
+    background-color: #f8fcfb;
+    border: solid 2px #eef3f2;
+    padding: 10px 35px;
 }
 .contact {
     display: inline-block;
@@ -43,11 +51,31 @@ h3 {
 #email {
     display: inline-block;
     margin-bottom: 30px;
+    margin-right: 10px;
+    background-color: #f8fcfb;
+    border: solid 2px #eef3f2;
+    padding: 10px 35px;
 }
 #phone {
     display: inline-block;
     margin-bottom: 30px;
+    background-color: #f8fcfb;
+    border: solid 2px #eef3f2;
+    padding: 10px 35px;
 }
 .radio {
     margin-bottom: 30px;
+    margin-top: 10px;
+    color: #2ee739;
+}
+.label-gender {
+    margin-right: 20px;
+}
+#button {
+    font-size: 1rem;
+    padding: 8px 40px;
+    color: white;
+    background-color: #3b85ea;
+    border: solid #3b85ea;
+    border-radius: 5px;
 }
