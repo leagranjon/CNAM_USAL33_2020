@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulaire</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Formulaire</h3>
+        <form action="" method="post" class="form">
+            <div class="name">
+                <label class="label" for="firstname">Prénom</label>
+                <input type="text" name="firstname" id="firstname" required>
+            </div>
+            <div class="name">
+                <label class="label" for="lastname">Nom</label>
+                <input type="text" name="lastname" id="lastname" required>
+            </div>
+
+            <div class="gender">
+                <label class="label" for="gender">Genre</label>
+                <input class="radio" type="radio" name="radio" id="radio"> <label for="radio">Homme</label>
+                <input class="radio" type="radio" name="radio" id="radio-1"> <label for="radio">Femme</label>
+            </div>
+
+            <div class="contact">
+                <label class="label" for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="contact">
+                <label class="label" for="phone">Téléphone</label>
+                <input type="tel" id="phone" name="phone" maxlength="10" required>
+            </div>
+
+            <div class="form-submit">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+        </div>
+</body>
+</html>

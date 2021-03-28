@@ -1,0 +1,148 @@
+body {
+  background-color: #fbf7f0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p{
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #383937;
+}
+
+article {
+  background-color: #fff;
+  padding: 3rem;
+  margin: 5rem 0;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.background {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  height: 400px;
+  background: no-repeat url(../eval/img/background.png);
+  background-position: right top;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.button {
+  background-color: #2e302e;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: center;
+}
+
+.menu-item {
+  padding: 0 1.5rem;
+  color: #9d9d9c;
+  text-decoration: none;
+  border-right: 1px solid #e0dfdc;
+}
+
+li:last-child .menu-item {
+  border: none;
+}
+
+.menu-item.current {
+  font-weight: 700;
+  color: #383937;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.hero-block {
+  display: flex;
+  margin: 5rem 0;
+  flex-wrap: wrap;
+}
+
+.hero-block-text {
+  flex: 1;
+  margin-right: 3rem;
+}
+
+.hero-block-title {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.hero-block-image {
+  display: flex;
+  background-color: #b05a58;
+  border-radius: 25px;
+  width: 360px;
+  height: auto;
+  padding: 0 3rem;
+}
+
+.hero-block-image > img {
+  width: 100%;
+}
+
+.content {
+  margin-top: 5rem;
+}
+
+.title {
+  border-bottom: 1px solid #e0dfdc;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.heroes-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.heroes-gallery > .image {
+  border-radius: 25px;
+  width: 340px;
+  height: 300px;
+  padding:  3rem;
+  margin: 2rem;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.spiderman {
+  background-color: #073466;
+}
+
+.hulk {
+  background-color: #638346;
+}

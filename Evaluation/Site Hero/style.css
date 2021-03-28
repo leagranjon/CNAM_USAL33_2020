@@ -1,0 +1,122 @@
+/* ------------------------BACKGROUND------------------------- */
+body {
+    background-color: #fbf7f0;
+}
+
+/* ------------------------POLICE------------------------- */
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+/* ------------------------MENU------------------------- */
+ul {
+    list-style: none;
+    text-align: center;
+    color: #9d9d9c;
+    padding-top: 10px;
+}
+li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul > li + li {
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #e0dfdc;
+}
+a:active {
+    color: #383937;
+}
+
+/* ------------------------ACCUEIL------------------------- */
+.accueil {
+    float: left;
+    margin-left: 30px;
+
+}
+.deadpool {
+    background-color: #b05a58;
+    border-radius: 20px;
+    float: right;
+}
+
+/* ------------------------HEROS------------------------- */
+.hero {
+    width: 340px;
+    height: 300px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.spiderman {
+    background-color: #073466;
+    border-radius: 20px;
+}
+.hulk {
+    background-color: #638346;
+    border-radius: 20px;
+}
+.box-heros {
+    float: right;
+    text-align: center;
+}
+#title-heros {
+    margin-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #e0dfdc;
+}
+
+/* ------------------------BLOG------------------------- */
+.title-blog {
+    margin-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #e0dfdc;
+}
+.block {
+    background-color: #fff;
+    margin: 80px 65px 80px 65px;
+    padding: 15px 10px 15px 10px;
+    box-shadow: 1px 1px 5px black;
+}
+#origin {
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* ------------------------CONTACT------------------------- */
+.title-contact {
+    margin-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #e0dfdc;
+}
+.mail {
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+span {
+    text-decoration: underline;
+    font-weight: bold;
+}

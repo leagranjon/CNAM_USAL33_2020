@@ -1,0 +1,145 @@
+body {
+  background: no-repeat url(https://picsum.photos/id/876/1400/1800?blur);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  margin-top: 68px;
+}
+
+.header__title {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.header__subtitle {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.main {
+  max-width: 1160px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.block-header {
+  text-align: center;
+}
+
+.block-header h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.block-header p {
+  color: #bbb;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.intro .block-header {
+  margin: 56px 0;
+}
+
+.intro .block-header h2 {
+  color: #1e1f23;
+}
+
+.content {
+  color: #7a7a7a;
+  background-color: #f5f5f6;
+  padding: 56px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.line-separator {
+  width: 85px;
+  margin: auto;
+  border-color: #dfdfdf;
+  border-style: solid;
+  border-bottom: none;
+}
+
+.gallery {
+  background-color: #1e1f23;
+  padding: 56px;
+}
+
+.gallery .block-header {
+  padding: 6px 0 36px;
+  background-color: #000;
+  color: #fff;
+}
+
+.gallery .line-separator {
+  border-color: #333333;
+}
+
+.gallery__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery__content .image {
+  display: flex;
+  width: 50%;
+}
+
+.spotlight {
+  background-color: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spotlight > div {
+  width: 50%;
+}
+
+.footer {
+  margin: 60px 0;
+  color: #bbb;
+  text-align: center;
+}
+
+.image > img {
+  width: 100%;
+}
+
+.spotlight .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.spotlight .content.dark {
+  text-align: right;
+  background-color: #1e1f23;
+}
+
+.spotlight .content.dark  h3 {
+  color: #fff;
+}
+
+.spotlight .image > img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.spotlight h3 {
+  color: #000;
+}

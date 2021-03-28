@@ -1,0 +1,67 @@
+.background {
+    background: #E13EFF;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .gradient-background {
+    background: linear-gradient(180deg, #E13EFF, #7745FF);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+.smiley {
+    background: yellow;
+    width: 250px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    border-radius: 50%;
+}
+.smiley::before {
+    content: "";
+    position: absolute;
+    margin: 75px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 45px;
+    background: black;
+}
+.smiley::after {
+    content: "";
+    position: absolute;
+    margin: 140px;
+    margin-top: 90px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 15px;
+    background: black;
+}
+.mouth {
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    border-bottom-color: #000;
+    width: 160px;
+    height: 190px;
+    bottom: 70px;
+    right: 57px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+}
