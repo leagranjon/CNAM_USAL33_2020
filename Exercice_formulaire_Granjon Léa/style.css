@@ -5,6 +5,7 @@ html {
 }
 .container {
     position: absolute;
+    box-shadow: 0 0 15px gray;
     background-color: white;
     top: 0;
     left: 0;
@@ -71,8 +72,10 @@ h3 {
 .label-gender {
     margin-right: 20px;
 }
+
 #button {
     font-size: 1rem;
+    margin-top: 10px;
     padding: 8px 40px;
     color: white;
     background-color: #3b85ea;

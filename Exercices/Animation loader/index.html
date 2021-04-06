@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Animation</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .loader {
+      width: 500px;
+    }
+
+     circle {
+      fill: none;
+      stroke-width: 3.5;
+      transform: rotate(0deg);
+      transform-origin: 170px 170px;
+      animation-name: rotate;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+     circle:nth-child(1) {
+      stroke-dasharray: 550px;
+      animation-delay: 0s;
+     }
+
+     circle:nth-child(2) {
+      stroke-dasharray: 500px;
+      animation-delay: 0.250s;
+     }
+
+     circle:nth-child(3) {
+      stroke-dasharray: 480px;
+      animation-delay: 0.45s;
+     }
+
+     circle:nth-child(4) {
+      stroke-dasharray: 350px;
+      animation-delay: 0.750s;
+     }
+
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+  </style>
+  <body>
+    <div class="container">
+      <svg
+        class="loader"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 340 340"
+      >
+        <circle cx="170" cy="170" r="160" stroke="#E2007C" />
+        <circle cx="170" cy="170" r="135" stroke="#404041" />
+        <circle cx="170" cy="170" r="110" stroke="#E2007C" />
+        <circle cx="170" cy="170" r="85" stroke="#404041" />
+      </svg>
+    </div>
+  </body>
+</html>
